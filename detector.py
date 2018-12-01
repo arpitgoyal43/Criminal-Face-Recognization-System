@@ -18,7 +18,9 @@ while True:
         if(id==1):
                 id="Arpit"
         elif(id==2):
-                id="Moti"
+                id="Vivek"
+        elif(id==3):
+                id="sahil"
         cv2.cv.PutText(cv2.cv.fromarray(img),str(id),(x,y+h),font,255);
     cv2.imshow('Face' , img);
     if(cv2.waitKey(1)==ord('q')):
